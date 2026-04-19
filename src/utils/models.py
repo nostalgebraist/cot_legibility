@@ -37,7 +37,9 @@ MODEL_REGISTRY = {
     "R1": {
         "provider": "openrouter",
         "model_id": "deepseek/deepseek-r1",
-        "openrouter_provider": ["targon/fp8", "Nebius", "deepinfra/base"],
+        # NOTE(nost): i'm overriding this in configs anyway so I don't think the change here matters?
+        "openrouter_provider": ["novita"],
+        # "openrouter_provider": ["targon/fp8", "Nebius", "deepinfra/base"],
     },
     "qwq": {
         "provider": "openrouter",
