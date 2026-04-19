@@ -1,0 +1,11 @@
+2026-04-19 09:39:53,135 - INFO - Starting run: 20251014_190506_R1_gpqa
+2026-04-19 09:39:53,135 - INFO - Config: config/2026_04_19__r1__repro_analysis2.yaml
+2026-04-19 09:39:53,352 - INFO - Starting analysis stage
+2026-04-19 09:39:53,353 - INFO - Loading evaluation from runs/20251014_190506_R1_gpqa/evaluation.json
+2026-04-19 09:39:53,355 - INFO - Generating legibility_scores_boxplot plot
+2026-04-19 09:39:53,467 - INFO - Generating correctness_assessment plot
+2026-04-19 09:39:53,506 - INFO - Generating legibility_by_correctness plot
+2026-04-19 09:39:53,545 - INFO - Generating length_vs_legibility plot
+2026-04-19 09:39:53,606 - INFO - Analysis complete. Plots saved to runs/20251014_190506_R1_gpqa/plots
+2026-04-19 09:39:53,607 - INFO - Analysis stage complete
+2026-04-19 09:39:53,607 - INFO - Run complete. Results in runs/20251014_190506_R1_gpqa
