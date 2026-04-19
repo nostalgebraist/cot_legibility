@@ -1,0 +1,16 @@
+run:
+  name: 20251014_201056_R1_gpqa
+  stages:
+  - analysis
+analysis:
+  plots:
+  - legibility_scores_boxplot
+  - correctness_assessment
+  - legibility_by_correctness
+  - length_vs_legibility
+  comparison:
+    enabled: false
+    runs: []
+    plot_types: []
+  statistics:
+  - summary
